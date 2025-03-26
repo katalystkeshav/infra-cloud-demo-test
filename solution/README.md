@@ -15,6 +15,9 @@ Part 1
 `docker logs [container_id] >& part-1-logs`
 
 ---
-Part 2
+Part 2 & 3
 - To run the container with docker compose use the command -
 `docker compose up`
+- Open the prometheus in your browser - 
+`http://localhost:9090`
+- Search for "csvserver_records" and open the "Graph" tab to view the result.
